@@ -1,0 +1,58 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+}
+.containerApp {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  color: white;
+  background-color: #0c1c3c;
+  text-align: center;
+  padding: 50px 0;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.form-searcher-container input {
+  width: 30%;
+}
+.containerApp .container__card {
+  width: 30%;
+  margin: 12px auto;
+  height: auto;
+  background-color: rgb(76, 78, 207);
+  box-shadow: -1px 3px 19px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding: 15px;
+}
+.form-searcher-container {
+  display: flex;
+  justify-content: center;
+}
+.form-searcher-container button {
+  border-radius: 5px;
+  outline: 0px;
+  border: 1px solid #2d2fb8;
+  background-color: #2d2fb8;
+  /*   box-shadow: -1px 2px 15px -5px rgba(0, 0, 0, 0.75);
+ */
+  color: white;
+  margin-left: 15px;
+}
+.container__card {
+  background-color: red;
+  width: 100%;
+  height: 100px;
+}
+.credits {
+  position: absolute;
+  bottom: 0;
+  font-size: x-large;
+  left: calc(50% - 152px);
+}
