@@ -1,7 +1,6 @@
 const selector = document.querySelector("input");
 const button = document.querySelector(".submit");
-
-const API_KEY = "1f467e12267b914a37ea9565a2328c09";
+const API_KEY = prompt("Ingresa la API KEY");
 
 const createTempNode = () => {
   const API_URL = `http://api.openweathermap.org/data/2.5/weather?q=${selector.value}&appid=${API_KEY}&units=metric&lang=es`;
